@@ -52,6 +52,139 @@
     line-height: 1.5;
     white-space: normal;
   }
+  // hot-hot-recommend
+  .hot-recommend {
+    margin: 0 -12px 10px;
+    padding: 0;
+    border-top: 3px double #ddd;
+    border-bottom: 3px double #ddd;
+    background: #f9f9f9;
+  }
+  .hot-box {
+    position: relative;
+    margin: 0 206px 0 0;
+    padding: 15px 15px 0;
+  }
+  .cycle-box {}
+  .cycle-pic-box {
+    position: relative;
+    float: left;
+    height: 230px;
+    width: 234px;
+    background: url(../img/hot-pic.png) no-repeat;
+    text-align: center;
+  }
+  .pic-box {
+    padding: 8px 0 0 16px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    img {
+      width: 200px;
+    }
+  }
+  .cycle-pic-board {
+    position: absolute;
+    top: -10px;
+    left: 50px;
+    height: 32px;
+    width: 134px;
+    background: url(../img/hot-recommend.png) no-repeat center center;
+    z-index: 99;
+  }
+  .cycle-content-box {
+    margin-left: 240px;
+    padding: 8px 0 0;
+  }
+  .cycle-title {
+    margin-bottom: 8px;
+    @include inline-block;
+    a {
+      @include inline-block;
+      font-size: $font-base + 9px;
+    }
+  }
+  .cycle-article {
+    font-size: $font-base;
+    line-height: 1.5;
+  }
+  .cycle-page-box {
+    position: absolute;
+    top: 215px;
+    right: 25px;
+    left: 23px;
+    z-index: 999;
+    margin: 0 0 0 240px;
+  }
+  .page-btn {
+    @include inline-block;
+    font-size: $font-base - 3px;
+    vertical-align: middle;
+  }
+  .hot-pager {
+    @include inline-block;
+    vertical-align: middle;
+    span {
+      font-size: $font-base + 8px;
+      color: $gray-light;
+      cursor: pointer;
+      &.cycle-pager-active {
+        color: $c-link-h;
+      }
+    }
+  }
+  .day-star-box {
+    position: relative;
+    float: right;
+    padding: 20px;
+    width: 170px;
+    height: 205px;
+    background: #fff;
+    &:before {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0px;
+      width: 4px;
+      content: "";
+      background: url(../img/star-deco-v.png) center center no-repeat;
+    }
+  }
+  .day-star-pic {
+    margin-bottom: 8px;
+    width: 170px;
+    height: 130px;
+    overflow: hidden;
+    img {
+      width: 170px;
+    }
+  }
+  .day-star-board {
+    position: absolute;
+    top: -35px;
+    right: -15px;
+    width: 80px;
+    height: 80px;
+    background: url(../img/day-star.png) no-repeat center center;
+    z-index: 99;
+  }
+  .plant-info-box {}
+  .plant-name {
+    // margin-bottom: 3px;
+    a {
+      @include inline-block;
+      font-size: $font-base + 3px;
+      line-height: 1.5;
+    }
+  }
+  .scientific-name {
+    display: block;
+    margin: 0 0 3px 0; 
+    height: 28px;
+    overflow: hidden;
+    font-size: $font-base - 3px;
+    line-height: 1.2;
+  }
   // tip
   .tip-box {
     display: block;

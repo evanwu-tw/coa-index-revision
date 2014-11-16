@@ -5,69 +5,70 @@ Last Updated: 2010-09-17
 Author: Richard Clark - http://richclarkdesign.com 
 Twitter: @rich_clark
 */
+.#{$theme} {
+  div, span, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  abbr, address, cite, code,
+  del, dfn, em, img, ins, kbd, q, samp,
+  small, strong, sub, sup, var,
+  b, i,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section, summary,
+  time, mark, audio, video {
+      margin:0;
+      padding:0;
+      border:0;
+      outline:0;
+      font-size:100%;
+      vertical-align:baseline;
+      background:transparent;
+  }
 
-.#{$theme} div, .#{$theme} span, .#{$theme} object, .#{$theme} iframe,
-.#{$theme} h1, .#{$theme} h2, .#{$theme} h3, .#{$theme} h4, .#{$theme} h5, .#{$theme} h6, .#{$theme} p, .#{$theme} blockquote, .#{$theme} pre,
-.#{$theme} abbr, .#{$theme} address, .#{$theme} cite, .#{$theme} code,
-.#{$theme} del, .#{$theme} dfn, .#{$theme} em, .#{$theme} img, .#{$theme} ins, .#{$theme} kbd, .#{$theme} q, .#{$theme} samp,
-.#{$theme} small, .#{$theme} strong, .#{$theme} sub, .#{$theme} sup, .#{$theme} var,
-.#{$theme} b, .#{$theme} i,
-.#{$theme} dl, .#{$theme} dt, .#{$theme} dd, .#{$theme} ol, .#{$theme} ul, .#{$theme} li,
-.#{$theme} fieldset, .#{$theme} form, .#{$theme} label, .#{$theme} legend,
-.#{$theme} table, .#{$theme} caption, .#{$theme} tbody, .#{$theme} tfoot, .#{$theme} thead, .#{$theme} tr, .#{$theme} th, .#{$theme} td,
-.#{$theme} article, .#{$theme} aside, .#{$theme} canvas, .#{$theme} details, .#{$theme} figcaption, .#{$theme} figure, 
-.#{$theme} footer, .#{$theme} header, .#{$theme} hgroup, .#{$theme} menu, .#{$theme} nav, .#{$theme} section, .#{$theme} summary,
-.#{$theme} time, .#{$theme} mark, .#{$theme} audio, .#{$theme} video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section { 
+      display:block;
+  }
 
-.#{$theme} article, .#{$theme} aside, .#{$theme} details, .#{$theme} figcaption, .#{$theme} figure, 
-.#{$theme} footer, .#{$theme} header, .#{$theme} hgroup, .#{$theme} menu, .#{$theme} nav, .#{$theme} section { 
-    display:block;
-}
+  nav ul {
+      list-style:none;
+  }
 
-.#{$theme} nav ul {
-    list-style:none;
-}
+  blockquote, q {
+      quotes:none;
+  }
 
-.#{$theme} blockquote, .#{$theme} q {
-    quotes:none;
-}
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+      content:'';
+      content:none;
+  }
 
-.#{$theme} blockquote:before, .#{$theme} blockquote:after,
-.#{$theme} q:before, .#{$theme} q:after {
-    content:'';
-    content:none;
-}
+  a {
+      margin:0;
+      padding:0;
+      font-size:100%;
+      vertical-align:baseline;
+      background:transparent;
+  }
 
-.#{$theme} a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
+  del {
+      text-decoration: line-through;
+  }
 
-.#{$theme} del {
-    text-decoration: line-through;
-}
+  abbr[title], dfn[title] {
+      border-bottom:1px dotted;
+      cursor:help;
+  }
 
-.#{$theme} abbr[title], .#{$theme} dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
-}
+  table {
+      border-collapse:collapse;
+      border-spacing:0;
+  }
 
-.#{$theme} table {
-    border-collapse:collapse;
-    border-spacing:0;
-}
-
-.#{$theme} input, .#{$theme} select {
-    vertical-align:middle;
+  input, select {
+      vertical-align:middle;
+  }
 }

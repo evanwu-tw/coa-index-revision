@@ -34,40 +34,31 @@ Twitter: @rich_clark
   font-size: 100%;
   vertical-align: baseline;
   background: transparent; }
-
 .coa-re2014 article, .coa-re2014 aside, .coa-re2014 details, .coa-re2014 figcaption, .coa-re2014 figure,
 .coa-re2014 footer, .coa-re2014 header, .coa-re2014 hgroup, .coa-re2014 menu, .coa-re2014 nav, .coa-re2014 section {
   display: block; }
-
 .coa-re2014 nav ul {
   list-style: none; }
-
 .coa-re2014 blockquote, .coa-re2014 q {
   quotes: none; }
-
 .coa-re2014 blockquote:before, .coa-re2014 blockquote:after,
 .coa-re2014 q:before, .coa-re2014 q:after {
   content: '';
   content: none; }
-
 .coa-re2014 a {
   margin: 0;
   padding: 0;
   font-size: 100%;
   vertical-align: baseline;
   background: transparent; }
-
 .coa-re2014 del {
   text-decoration: line-through; }
-
 .coa-re2014 abbr[title], .coa-re2014 dfn[title] {
   border-bottom: 1px dotted;
   cursor: help; }
-
 .coa-re2014 table {
   border-collapse: collapse;
   border-spacing: 0; }
-
 .coa-re2014 input, .coa-re2014 select {
   vertical-align: middle; }
 
@@ -203,6 +194,131 @@ Twitter: @rich_clark
   background: none;
   line-height: 1.5;
   white-space: normal; }
+.coa-re2014 .hot-recommend {
+  margin: 0 -12px 10px;
+  padding: 0;
+  border-top: 3px double #ddd;
+  border-bottom: 3px double #ddd;
+  background: #f9f9f9; }
+.coa-re2014 .hot-box {
+  position: relative;
+  margin: 0 206px 0 0;
+  padding: 15px 15px 0; }
+.coa-re2014 .cycle-pic-box {
+  position: relative;
+  float: left;
+  height: 230px;
+  width: 234px;
+  background: url(../img/hot-pic.png) no-repeat;
+  text-align: center; }
+.coa-re2014 .pic-box {
+  padding: 8px 0 0 16px;
+  width: 200px;
+  height: 200px;
+  overflow: hidden; }
+  .coa-re2014 .pic-box img {
+    width: 200px; }
+.coa-re2014 .cycle-pic-board {
+  position: absolute;
+  top: -10px;
+  left: 50px;
+  height: 32px;
+  width: 134px;
+  background: url(../img/hot-recommend.png) no-repeat center center;
+  z-index: 99; }
+.coa-re2014 .cycle-content-box {
+  margin-left: 240px;
+  padding: 8px 0 0; }
+.coa-re2014 .cycle-title {
+  margin-bottom: 8px;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline; }
+  .coa-re2014 .cycle-title a {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    font-size: 24px; }
+.coa-re2014 .cycle-article {
+  font-size: 15px;
+  line-height: 1.5; }
+.coa-re2014 .cycle-page-box {
+  position: absolute;
+  top: 215px;
+  right: 25px;
+  left: 23px;
+  z-index: 999;
+  margin: 0 0 0 240px; }
+.coa-re2014 .page-btn {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  font-size: 12px;
+  vertical-align: middle; }
+.coa-re2014 .hot-pager {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  vertical-align: middle; }
+  .coa-re2014 .hot-pager span {
+    font-size: 23px;
+    color: #999999;
+    cursor: pointer; }
+    .coa-re2014 .hot-pager span.cycle-pager-active {
+      color: #0070e6; }
+.coa-re2014 .day-star-box {
+  position: relative;
+  float: right;
+  padding: 20px;
+  width: 170px;
+  height: 205px;
+  background: #fff; }
+  .coa-re2014 .day-star-box:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    width: 4px;
+    content: "";
+    background: url(../img/star-deco-v.png) center center no-repeat; }
+.coa-re2014 .day-star-pic {
+  margin-bottom: 8px;
+  width: 170px;
+  height: 130px;
+  overflow: hidden; }
+  .coa-re2014 .day-star-pic img {
+    width: 170px; }
+.coa-re2014 .day-star-board {
+  position: absolute;
+  top: -35px;
+  right: -15px;
+  width: 80px;
+  height: 80px;
+  background: url(../img/day-star.png) no-repeat center center;
+  z-index: 99; }
+.coa-re2014 .plant-name a {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  font-size: 18px;
+  line-height: 1.5; }
+.coa-re2014 .scientific-name {
+  display: block;
+  margin: 0 0 3px 0;
+  height: 28px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1.2; }
 .coa-re2014 .tip-box {
   display: block; }
 .coa-re2014 .date-box, .coa-re2014 .news-box {
