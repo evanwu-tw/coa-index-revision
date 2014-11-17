@@ -376,7 +376,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 450,
+		"initialSize": 3189,
 		"inputAbbreviatedPath": "\/img\/btn-subscribe.png",
 		"outputAbbreviatedPath": "\/img\/btn-subscribe.png",
 		"outputPathIsOutsideProject": 0,
@@ -405,13 +405,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/hot-deco.png": {
+	"\/img\/hot-pic.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 842,
-		"inputAbbreviatedPath": "\/img\/hot-deco.png",
-		"outputAbbreviatedPath": "\/img\/hot-deco.png",
+		"initialSize": 5906,
+		"inputAbbreviatedPath": "\/img\/hot-pic.png",
+		"outputAbbreviatedPath": "\/img\/hot-pic.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -460,28 +460,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/knowledge-deco-d.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 942,
-		"inputAbbreviatedPath": "\/img\/knowledge-deco-d.png",
-		"outputAbbreviatedPath": "\/img\/knowledge-deco-d.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/knowledge-decot.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 939,
-		"inputAbbreviatedPath": "\/img\/knowledge-decot.png",
-		"outputAbbreviatedPath": "\/img\/knowledge-decot.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/knowledge-list-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -504,6 +482,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/single-input.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1191,
+		"inputAbbreviatedPath": "\/img\/single-input.png",
+		"outputAbbreviatedPath": "\/img\/single-input.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/star-deco-v.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1157,
+		"inputAbbreviatedPath": "\/img\/star-deco-v.png",
+		"outputAbbreviatedPath": "\/img\/star-deco-v.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/title-deco.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -520,6 +520,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

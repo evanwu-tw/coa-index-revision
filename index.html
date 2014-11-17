@@ -613,62 +613,77 @@
               <input name="search" alt="search" class="btn" onclick="javascript:checkSearchForm(1)" src="searchbtn2.gif" type="image">
             </form>
           </div>
-          <div class="theme">
-            <h2>主題報導專欄</h2>
-            <div class="body">
-              <a href="http://kmweb.coa.gov.tw/ct.asp?xItem=1029838&amp;ctNode=1582" target="_top">
-                <img src="482810294653.jpg" alt="花落而生的土生命" border="0">
-              </a>
-              <p><a href="http://kmweb.coa.gov.tw/ct.asp?xItem=1029838&amp;ctNode=1582" title="「哪是開一蕊花，兜落一隻籤、結一個莢，安捏你知影某？」花生田">「哪是開一蕊花，兜落一隻籤、結一個莢，安捏你知影某？」花生田</a>...
-              </p>
-            </div>
-            <div class="foot">&nbsp;</div>
-          </div>
           <div class="login" xmlns:user="urn:user-namespace-here">
             <h2>會員登入</h2>
             <div class="body">
               <form method="post" action="http://kmweb.coa.gov.tw/loginact.asp?redirecturl=/mp.asp?mp=1">
-                <label>
-                  帳號:
-                  <input value="" name="account2" id="id_account2" size="20" class="txt" type="text">
-                </label>
-                <label>
-                  密碼:
-                  <input name="passwd2" id="id_passwd2" size="20" class="txt" type="password">
-                </label>
+                <div class="double-input">
+                  <label>帳號</label>
+                  <input name="account2" id="id_account2" size="20" type="text">
+                  <label>密碼</label>
+                  <input name="passwd2" id="id_passwd2" size="20" type="password">
+                </div> 
                 <label>
                   <input name="keepLogin" id="keepLogin" value="Y" type="CheckBox">保持我的登入狀態
                 </label>
-                <center>
-                  <input id="memberLoginSubmit" name="submit" class="btn" value="登入會員" onclick="javascript:xsubmit()" src="login.gif" type="image">
-                </center>
               </form>
-              <ul>
-                <li><a href="http://kmweb.coa.gov.tw/sp.asp?xdURL=coamember/member_Join.asp&amp;mp=1">加入會員</a>
+              <ul class="sider-btn-group">
+                <li class="sider-btn-box inline">
+                  <a id="memberLoginSubmit" name="submit" class="btn-sider-main" value="登入會員" onclick="javascript:xsubmit()">登入會員</a>
                 </li>
-                <li><a href="http://kmweb.coa.gov.tw/sp.asp?xdURL=coamember/member_Getpw.asp&amp;mp=1">忘記密碼</a>
+                <li class="sider-btn-box inline">
+                  <a href="http://kmweb.coa.gov.tw/sp.asp?xdURL=coamember/member_Getpw.asp&amp;mp=1" class="btn-sider-sub">忘記密碼</a>
                 </li>
               </ul>
-            </div>
-          </div>
-          <div class="fb" xmlns:user="urn:user-namespace-here">
-            <div class="body">
-              <a href="javascript:void(0);" onclick="javascript:FBLogin();">
-                <img src="fb_login.png" style="margin-left: -7px;">
-              </a>
+              <ul class="sider-btn-group">
+                <li class="sider-btn-box">
+                  <a href="javascript:void(0);" onclick="javascript:FBLogin();" class="btn-sider-fb">facebook帳號登入</a>
+                </li>
+                <li class="sider-btn-box">
+                  <a href="http://kmweb.coa.gov.tw/sp.asp?xdURL=coamember/member_Join.asp&amp;mp=1" class="btn-sider-sbu-l">加入會員</a>
+                </li>
+              </ul>
             </div>
           </div>
           <div class="epaper">
             <h2>訂閱電子報</h2>
             <div class="body">
               <form method="post" action="http://kmweb.coa.gov.tw/epaper_act.asp?CtRootID=21">
-                <input name="textfield2" size="20" class="txt" value="請輸入電子郵件帳號" onfocus="JSCRIPT: this.value='';" type="text">
-                <input name="submit1" alt="訂閱" class="btn" src="epaperbtn1.gif" type="image">
-                <input name="submit2" alt="取消訂閱" class="btn" src="epaperbtn2.gif" type="image">
-                <a href="http://kmweb.coa.gov.tw/lp.asp?CtNode=2873&amp;CtUnit=1356&amp;BaseDSD=7&amp;mp=1">
-                  <img alt="歷史電子報" src="epaperbtn3.gif" border="0">
-                </a>
+                <input name="textfield2" size="20" value="請輸入電子郵件帳號" onfocus="JSCRIPT: this.value='';" type="text" class="single-input">
               </form>
+              <ul class="sider-btn-group">
+                <li class="sider-btn-box inline">
+                  <a name="submit1" alt="訂閱" class="btn-sider-main">訂閱</a>
+                </li>
+                <li class="sider-btn-box inline">
+                  <a name="submit2" alt="取消訂閱" class="btn-sider-sub">取消訂閱</a>
+                </li>
+                <li class="sider-btn-box">
+                  <a href="http://kmweb.coa.gov.tw/lp.asp?CtNode=2873&amp;CtUnit=1356&amp;BaseDSD=7&amp;mp=1" class="btn-sider-sbu-l">訂閱電子報</a>
+                </li>
+            </div>
+          </div>
+          <div class="TagCloud">
+            <h2>熱門關鍵字</h2>
+            <div id="tagcloud">
+              <a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='火龍果品種'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">火龍果品種</a>
+              <a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='流膠病'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">流膠病</a>
+              <a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='電土'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">電土</a>
+              <a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='蘆筍'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">蘆筍</a>
+              <a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='綠薄荷'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">綠薄荷</a>
+              <a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='杏鮑菇'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">杏鮑菇</a>
+              <a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='新聞'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">新聞</a>
+              <a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='蘆薈'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">蘆薈</a>
+              <a class="TagLv_3" herf="" onclick="javascript:document.SearchForm.Keyword.value ='草莓'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">草莓</a>
+              <a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='花胡瓜'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">花胡瓜</a>
+              <a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='香草'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">香草</a>
+              <a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='甜玉米'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">甜玉米</a>
+              <a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='紅蜘蛛'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">紅蜘蛛</a>
+              <a class="TagLv_7" herf="" onclick="javascript:document.SearchForm.Keyword.value ='南瓜'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">南瓜</a>
+              <a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='蜜蘋果'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">蜜蘋果</a>
+              <a class="TagLv_6" herf="" onclick="javascript:document.SearchForm.Keyword.value ='酪梨'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">酪梨</a>
+              <a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='季節'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">季節</a>
+              <a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='水果'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">水果</a>
             </div>
           </div>
           <div class="music">
@@ -685,11 +700,6 @@
                 <label for="bgMusicAutoplayCheckbox" class="color_a">自動播放</label>
               </div>
               <br>
-            </div>
-          </div>
-          <div class="TagCloud">
-            <h2>熱門關鍵字</h2>
-            <div id="tagcloud"><a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='火龍果品種'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">火龍果品種</a><a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='流膠病'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">流膠病</a><a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='電土'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">電土</a><a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='蘆筍'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">蘆筍</a><a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='綠薄荷'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">綠薄荷</a><a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='杏鮑菇'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">杏鮑菇</a><a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='新聞'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">新聞</a><a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='蘆薈'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">蘆薈</a><a class="TagLv_3" herf="" onclick="javascript:document.SearchForm.Keyword.value ='草莓'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">草莓</a><a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='花胡瓜'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">花胡瓜</a><a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='香草'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">香草</a><a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='甜玉米'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">甜玉米</a><a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='紅蜘蛛'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">紅蜘蛛</a><a class="TagLv_7" herf="" onclick="javascript:document.SearchForm.Keyword.value ='南瓜'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">南瓜</a><a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='蜜蘋果'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">蜜蘋果</a><a class="TagLv_6" herf="" onclick="javascript:document.SearchForm.Keyword.value ='酪梨'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">酪梨</a><a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='季節'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">季節</a><a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='水果'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">水果</a><a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='產季'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">產季</a><a class="TagLv_1" herf="" onclick="javascript:document.SearchForm.Keyword.value ='咖啡樹'; checkSearchForm(0)" onmouseover="this.style.color='#0083E5';" onmouseout="this.style.color='#0B5891';">咖啡樹</a>
             </div>
           </div>
         </td>

@@ -36,3 +36,41 @@
 //   Inbox
 // -------------------------------------
 
+.login {
+  .double-input {
+    label {
+      margin: 0;
+      padding: 0 0 0 10px;
+      @include inline-block;
+    }
+  }
+}
+.epaper {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    &:hover {
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+}
+.TagCloud {
+  margin: 0px 0px 10px 10px;
+  padding: 0;
+  width: 211px;
+  height: 190px;
+  background: url(../img/keyword-bg.png) no-repeat center top;
+  overflow: hidden;
+  h2 {
+    margin: 0 20px 8px;
+    padding: 12px 0 0;
+    border: none;
+    color: $gray;
+  }
+  div {
+    background: none;
+  }
+}

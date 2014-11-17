@@ -295,3 +295,78 @@
     }
   }
 }
+// login 
+.sider-btn-group {
+  .sider-btn-box {
+    display: block;
+    margin-bottom: 5px;
+    &.inline {
+      @include inline-block;
+    }    
+    .btn-sider-main, .btn-sider-sub {
+      padding: 0;
+      height: 26px;
+      font-size: $font-base - 2px;
+      text-align: center;
+      line-height: 2;  
+    }
+    .btn-sider-main {
+      @include inline-block;
+      width: 90px;
+      background: url(../img/btn-subscribe.png) no-repeat center center;
+      color: #fff;
+    }
+    .btn-sider-sub {
+      @include inline-block;
+      width: 68px;
+      background: url(../img/btn-unsubscribe.png) no-repeat center center;
+      color: $gray-dark;
+    }
+    .btn-sider-fb {
+      @include inline-block;
+      float: none;
+      padding: 0 0 0 40px;
+      width: 122px;
+      height: 36px;
+      background: url(../img/btn-fb.png) no-repeat center center;
+      font-size: $font-base - 3px;
+      line-height: 3;
+      color: #fff;
+    }
+    .btn-sider-sbu-l {
+      @include inline-block;
+      float: none;
+      padding: 0;
+      width: 162px;
+      height: 38px;
+      background: url(../img/btn-history.png) no-repeat center center;
+      font-size: $font-base - 2px;
+      text-align: center;
+      line-height: 3;
+      color: $gray-dark;
+    }
+  }
+}
+.single-input {
+  margin-bottom: 5px;
+  width: 162px;
+  height: 27px;
+  border: none;
+  text-indent: 10px;
+  background: url(../img/single-input.png) no-repeat center center;
+}
+.double-input {
+  margin-bottom: 5px;
+  padding: 3px 0 0 0;
+  width: 162px;
+  height: 59px;
+  background: url(../img/double-input.png) no-repeat center center;
+  input {
+    @include inline-block;
+    margin-bottom: 2px;
+    width: 115px;
+    height: 25px;
+    border: none;
+    text-indent: 10px;
+  }
+}
