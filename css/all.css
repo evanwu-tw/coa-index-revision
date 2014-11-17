@@ -467,7 +467,8 @@ Twitter: @rich_clark
   height: 27px;
   border: none;
   text-indent: 10px;
-  background: url(../img/single-input.png) no-repeat center center; }
+  background: url(../img/single-input.png) no-repeat center center;
+  line-height: 27px; }
 
 .double-input {
   margin-bottom: 5px;
@@ -485,7 +486,8 @@ Twitter: @rich_clark
     width: 115px;
     height: 25px;
     border: none;
-    text-indent: 10px; }
+    text-indent: 3px;
+    line-height: 25px; }
 
 .login .double-input label {
   margin: 0;
