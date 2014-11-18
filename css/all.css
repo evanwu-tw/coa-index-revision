@@ -284,17 +284,18 @@ Twitter: @rich_clark
   z-index: 99;
 }
 .coa-re2014 .cycle-content-box {
-  min-width: 265px;
   margin-left: 240px;
   padding: 8px 0 0;
 }
 .coa-re2014 .cycle-title {
-  margin-bottom: 8px;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
+  margin-bottom: 8px;
+  max-height: 50px;
+  overflow: hidden;
 }
 .coa-re2014 .cycle-title a {
   display: inline-block;
@@ -311,12 +312,7 @@ Twitter: @rich_clark
   overflow: hidden;
 }
 .coa-re2014 .cycle-page-box {
-  position: absolute;
-  top: 215px;
-  right: 25px;
-  left: 23px;
-  z-index: 999;
-  margin: 0 0 0 240px;
+  padding: 0 15px 0 58px;
 }
 .coa-re2014 .page-btn {
   display: inline-block;
@@ -348,7 +344,7 @@ Twitter: @rich_clark
   float: right;
   padding: 20px;
   width: 170px;
-  height: 205px;
+  height: 228px;
   background: #fff;
 }
 .coa-re2014 .day-star-box:before {
@@ -389,7 +385,7 @@ Twitter: @rich_clark
 }
 .coa-re2014 .scientific-name {
   display: block;
-  margin: 0 0 3px 0;
+  margin: 0 0 32px 0;
   height: 28px;
   overflow: hidden;
   font-size: 12px;
@@ -397,6 +393,7 @@ Twitter: @rich_clark
 }
 .coa-re2014 .tip-box {
   display: block;
+  white-space: normal;
 }
 .coa-re2014 .date-box, .coa-re2014 .news-box {
   display: inline-block;

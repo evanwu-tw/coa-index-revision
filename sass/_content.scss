@@ -97,13 +97,15 @@
     z-index: 99;
   }
   .cycle-content-box {
-    min-width: 265px;
+    // min-width: 265px;
     margin-left: 240px;
     padding: 8px 0 0;
   }
   .cycle-title {
-    margin-bottom: 8px;
     @include inline-block;
+    margin-bottom: 8px;
+    max-height: 50px;
+    overflow: hidden;
     a {
       @include inline-block;
       font-size: $font-base + 9px;
@@ -116,12 +118,13 @@
     overflow: hidden;
   }
   .cycle-page-box {
-    position: absolute;
-    top: 215px;
-    right: 25px;
-    left: 23px;
-    z-index: 999;
-    margin: 0 0 0 240px;
+    // position: absolute;
+    // top: 215px;
+    // right: 25px;
+    // left: 23px;
+    // z-index: 999;
+    // margin: 0 0 0 240px;
+    padding: 0 15px 0 58px;
   }
   .page-btn {
     @include inline-block;
@@ -145,7 +148,7 @@
     float: right;
     padding: 20px;
     width: 170px;
-    height: 205px;
+    height: 228px;
     background: #fff;
     &:before {
       position: absolute;
@@ -186,7 +189,7 @@
   }
   .scientific-name {
     display: block;
-    margin: 0 0 3px 0; 
+    margin: 0 0 32px 0; 
     height: 28px;
     overflow: hidden;
     font-size: $font-base - 3px;
@@ -195,6 +198,7 @@
   // tip
   .tip-box {
     display: block;
+    white-space: normal;
   }
   .date-box, .news-box {
     @include inline-block;
