@@ -250,9 +250,11 @@ Twitter: @rich_clark
 }
 .coa-re2014 .hot-box {
   position: relative;
-  height: 230px;
   margin: 0 206px 0 0;
   padding: 15px 15px 0;
+}
+.coa-re2014 .cycle-slideshow {
+  height: 230px;
   overflow: hidden;
 }
 .coa-re2014 .cycle-pic-box {

@@ -62,9 +62,11 @@
   }
   .hot-box {
     position: relative;
-    height: 230px;
     margin: 0 206px 0 0;
     padding: 15px 15px 0;
+  }
+  .cycle-slideshow {
+    height: 230px;
     overflow: hidden;
   }
   .cycle-box {}
