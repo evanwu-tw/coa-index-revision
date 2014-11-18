@@ -280,6 +280,7 @@ Twitter: @rich_clark
   z-index: 99;
 }
 .coa-re2014 .cycle-content-box {
+  min-width: 265px;
   margin-left: 240px;
   padding: 8px 0 0;
 }
@@ -300,8 +301,10 @@ Twitter: @rich_clark
   font-size: 24px;
 }
 .coa-re2014 .cycle-article {
+  max-height: 107px;
   font-size: 15px;
   line-height: 1.5;
+  overflow: hidden;
 }
 .coa-re2014 .cycle-page-box {
   position: absolute;

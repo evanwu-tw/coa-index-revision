@@ -93,6 +93,7 @@
     z-index: 99;
   }
   .cycle-content-box {
+    min-width: 265px;
     margin-left: 240px;
     padding: 8px 0 0;
   }
@@ -105,8 +106,10 @@
     }
   }
   .cycle-article {
+    max-height: 107px;
     font-size: $font-base;
     line-height: 1.5;
+    overflow: hidden;
   }
   .cycle-page-box {
     position: absolute;
