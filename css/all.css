@@ -600,6 +600,33 @@ Twitter: @rich_clark
   line-height: 25px;
 }
 
+.new-activity-box {
+  position: fixed;
+  top: 100px;
+  left: -20px;
+  z-index: 999;
+}
+
+.n-a-link {
+  display: block;
+  width: 178px;
+  height: 138px;
+  background: url(../img/news-activity-d.png) no-repeat center center;
+  color: #333333;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
+}
+.n-a-link:hover {
+  color: #333333;
+  background: url(../img/news-activity-h.png) no-repeat center center;
+  text-decoration: none;
+}
+.n-a-link p {
+  margin: 0;
+  padding: 21px 20px 0 0;
+  font-size: 18px;
+  text-align: right;
+}
+
 .login .double-input label {
   margin: 0;
   padding: 0 0 0 10px;

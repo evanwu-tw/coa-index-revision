@@ -36,6 +36,31 @@
 //   Inbox
 // -------------------------------------
 
+.new-activity-box {
+  position: fixed;
+  top: 100px;
+  left: -20px;
+  z-index: 999;
+}
+.n-a-link {
+  display: block;
+  width: 178px;
+  height: 138px;
+  background: url(../img/news-activity-d.png) no-repeat center center;
+  color: $gray-dark;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, .8);
+  &:hover {
+    color: $gray-dark;
+    background: url(../img/news-activity-h.png) no-repeat center center;
+    text-decoration: none;
+  }
+  p {
+    margin: 0;
+    padding: 21px 20px 0 0;
+    font-size: $font-base + 3px;
+    text-align: right;
+  }
+}
 .login {
   .double-input {
     label {
