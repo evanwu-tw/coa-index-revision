@@ -255,7 +255,6 @@ Twitter: @rich_clark
 }
 .coa-re2014 .cycle-slideshow {
   height: 230px;
-  overflow: hidden;
 }
 .coa-re2014 .cycle-pic-box {
   position: relative;
@@ -306,7 +305,7 @@ Twitter: @rich_clark
   font-size: 24px;
 }
 .coa-re2014 .cycle-article {
-  max-height: 107px;
+  max-height: 109px;
   font-size: 15px;
   line-height: 1.5;
   overflow: hidden;

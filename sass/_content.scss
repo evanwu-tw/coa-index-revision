@@ -67,7 +67,7 @@
   }
   .cycle-slideshow {
     height: 230px;
-    overflow: hidden;
+    // overflow: hidden;
   }
   .cycle-box {}
   .cycle-pic-box {
@@ -112,7 +112,7 @@
     }
   }
   .cycle-article {
-    max-height: 107px;
+    max-height: 109px;
     font-size: $font-base;
     line-height: 1.5;
     overflow: hidden;
