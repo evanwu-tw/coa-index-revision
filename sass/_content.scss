@@ -73,16 +73,20 @@
   .cycle-pic-box {
     position: relative;
     float: left;
-    height: 230px;
-    width: 234px;
-    background: url(../img/hot-pic.png) no-repeat;
+    padding: 10px;
+    // height: 230px;
+    // width: 234px;
     text-align: center;
+    border: 1px solid #ccc;
+    background: #fff;
+    @include box-shadow(0 5px 10px rgba(0, 0, 0, .4));
   }
   .pic-box {
-    padding: 8px 0 0 16px;
+    padding: 0;
     width: 200px;
-    height: 200px;
+    max-height: 200px;
     overflow: hidden;
+    background: #fff;
     img {
       width: 200px;
     }

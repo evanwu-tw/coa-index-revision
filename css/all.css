@@ -259,16 +259,20 @@ Twitter: @rich_clark
 .coa-re2014 .cycle-pic-box {
   position: relative;
   float: left;
-  height: 230px;
-  width: 234px;
-  background: url(../img/hot-pic.png) no-repeat;
+  padding: 10px;
   text-align: center;
+  border: 1px solid #ccc;
+  background: #fff;
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
 .coa-re2014 .pic-box {
-  padding: 8px 0 0 16px;
+  padding: 0;
   width: 200px;
-  height: 200px;
+  max-height: 200px;
   overflow: hidden;
+  background: #fff;
 }
 .coa-re2014 .pic-box img {
   width: 200px;
